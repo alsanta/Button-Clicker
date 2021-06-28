@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px red dotted; */
+    font-family: 'Source Code Pro', monospace;
+}
+#main-body{
+    height: 93vh;
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#top {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgrey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#top input{
+    border: 1px black solid;
+}
+#top button{
+    background-color: blue;
+    /* border: 1px black solid; */
+    box-shadow: 2px 2px black;
+    color: white;
+    width: 60px;
+}
+/* Left col */
+#left-col{
+    flex: 2;
+}
+.def1{
+    background-color: teal;
+    width: 466px;
+    height: 150px;
+    border: 1px black solid;
+    display: flex;
+    margin-bottom: 20px;
+}
+.def1-words1{
+    width: 29%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+.def1-words1 button{
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+    background-color: yellow;
+}
+.definition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 20px;
+}
+.def2{
+    background-color: teal;
+    width: 466px;
+    height: 150px;
+    border: 1px black solid;
+    display: flex;
+    margin-bottom: 20px;
+}
+.def2-words2{
+    width: 29%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+.def2-words2 button{
+    margin-top: 20px;
+    width: 80px;
+    height: 25px;
+    background-color: yellow;
+}
+.definition2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 20px;
+}
+/* Right col */
+#right-col{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+#box{
+    background-color: teal;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px black solid;
+}
+#box button{
+    width: 120px;
+    height: 23px;
+    background-color: #93c47d;
+    box-shadow: 2px 2px black;
+}
